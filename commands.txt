@@ -1,0 +1,23 @@
+----- list bentoml models -------
+
+bentoml models list
+
+
+------- built bento ------
+
+bentoml build 
+
+
+----- serve bento -----
+
+bentoml serve iris_classifier:latest --production
+
+
+------ containerize bento ------
+
+bentoml containerize iris_classifier:latest
+
+
+----- docker run model images ------
+
+docker run -it --rm -p 3000:3000 iris_classifier:6otbsmxzq6lwbgxi serve --production
