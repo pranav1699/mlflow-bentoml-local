@@ -1,3 +1,7 @@
+----- mlflow ui start -------
+
+mlflow ui 
+(run this command in the directory where the project resides)
 ----- list bentoml models -------
 
 bentoml models list
